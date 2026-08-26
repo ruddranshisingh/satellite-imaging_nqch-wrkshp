@@ -1,8 +1,9 @@
 skyfield
 sgp4
 dimod
-dwave-samplers
+dwave-neal
 networkx
 ortools
 matplotlib
-jupyterlab
+pandas
+numpy
