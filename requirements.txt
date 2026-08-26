@@ -1,7 +1,8 @@
-skyfield 
-sgp4 
-dimod 
-from dwave.samplers import SimulatedAnnealingSampler
-networkx 
-ortools 
+skyfield
+sgp4
+dimod
+dwave-samplers
+networkx
+ortools
 matplotlib
+jupyterlab
