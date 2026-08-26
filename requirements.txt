@@ -1,7 +1,7 @@
 skyfield 
 sgp4 
 dimod 
-dwave-neal 
+from dwave.samplers import SimulatedAnnealingSampler
 networkx 
 ortools 
 matplotlib
