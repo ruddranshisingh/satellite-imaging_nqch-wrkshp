@@ -1,0 +1,6 @@
+# Optional: only needed if you call solvers.solve_qaoa().
+# Not required for the greedy / simulated-annealing / CP-SAT comparison,
+# which only needs requirements.txt at the repo root.
+qiskit
+qiskit-aer
+scipy
