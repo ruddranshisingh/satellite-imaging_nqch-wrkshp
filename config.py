@@ -10,8 +10,10 @@ NORAD_IDS = [25544]
 
 # --- Planning horizon ---
 # UTC ISO 8601 start/end of the scheduling window (single orbit pass to start).
-HORIZON_START = "2026-08-27T00:00:00Z"
-HORIZON_END = "2026-08-27T02:00:00Z"
+from datetime import datetime, timedelta, timezone
+_now = datetime.now(timezone.utc)
+HORIZON_START = _now.strftime("%Y-%m-%dT%H:%M:%SZ")
+HORIZON_END = (_now + timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # --- Visibility / geometry ---
 MIN_ELEVATION_DEG = 10.0          # minimum elevation angle to count as "visible"
